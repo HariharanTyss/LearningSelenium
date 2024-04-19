@@ -26,7 +26,7 @@ public class LaunchMutipleBrowsers {
 		WebDriver driver2 = new FirefoxDriver();
 		
 
-		String key3 = "webdriver.msedge.driver";
+		String key3 = "webdriver.edge.driver";
 		String value3 = "./msedgedriver.exe";
 		
 		System.setProperty(key3, value3);

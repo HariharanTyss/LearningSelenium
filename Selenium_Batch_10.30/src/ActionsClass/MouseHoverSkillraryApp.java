@@ -24,7 +24,7 @@ public class MouseHoverSkillraryApp {
 		
 		Thread.sleep(1000);
 		driver.findElement(By.partialLinkText("Selenium")).click();
-		//driver.quit();
+		driver.quit();
 	}
 
 }
